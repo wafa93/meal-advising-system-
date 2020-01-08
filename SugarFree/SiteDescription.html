@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html>
+      <head>
+	  
+      <meta charset = "utf-8">
+      <title>وصف الموقع</title>
+      <style type = "text/css">
+         p
+         { margin:0.9em 0em;}
+         .multicolumns
+         {
+            /* setting the number of columns to 3 */
+            -webkit-column-count: 3; 
+            -moz-column-count: 3; 
+            -o-column-count: 3;
+            column-count: 3;
+            /* setting the space between columns to 30px */
+            -webkit-column-gap: 30px;
+            -moz-column-gap: 30px; 
+            -o-column-gap: 30px; 
+            column-gap: 30px; 
+            text-align: center;}
+            
+         table {font-family: arial, sans-serif;
+               border-collapse: collapse;
+               margin-left: auto;
+               margin-right: auto;}
+               
+         td, th {border: 1px solid #dddddd;
+               text-align: center;
+               padding: 8px;}
+               
+         li, td {text-align: left;}
+               
+               
+         @media all
+         {
+            body  { background-image:url("img/w1.jpg") ;
+                    background-repeat:repeat;
+                   background-position: center ;
+                   background-attachment:fixed;
+                   background-size: 100% 100%;}
+            h1    { font-family: verdana, helvetica, sans-serif;
+                    color: red;
+                    text-shadow: -4px 4px 6px dimgrey;}
+            h2    { color: Green; }
+            p     { font-size: 12pt;
+                    color: black;
+                    font-family: arial, sans-serif; }
+         } /* End @media all declaration. */
+         @media print
+         {
+            body  { background-color: white; }
+            h1    { color: SteelBlue;
+                   font-size: 16pt}
+            h2    { color: green;
+                   font-size: 14pt}
+            p     { font-size: 12pt;
+                    color: black;
+                    font-family: "times new roman", times, serif; }
+         } /* End @media print declaration. */
+            
+      </style>
+      <script>
+         var name; // string entered by the user
+         // read the name from the prompt box as a string
+         name = window.prompt( "Please enter your name" );
+         document.writeln("<h1>Hello " + name + ", welcome to Website Description!</h1>" );
+      </script>
+   </head>
+   <body>
+      
+   <header>
+   <div class = "multicolumns">
+   <img src = "collagelogo.jpg" width = "150" height = "180" alt = "College logo">
+   
+   
+   <p>
+   <br>
+   Al-Imam Mohammad Ibn Saud Islamic University
+   <br>
+   College of Computer and Information Sciences
+   <br>
+   Computer Science Departments</p>
+   <img src = "imamulogo.jpg" width = "150" height = "180" alt="University logo">
+   </div>
+   </header>
+   
+   <h1>Project goal</h1>
+   <p>The main aim is to build a meal advising system and to a build
+   recommendation path for people to help them plan their meals, based on what they prefer and
+   the similarities of recipes.</p>
+   
+   <h1>Description For The Website Files</h1>
+         <h2>HTML:</h2>
+         <p>The HTML was used to build the page of the website. Table 1 shows the description of each file.</p>
+         <table border = "1">
+         <caption>Table 1: Website Pages </caption>
+         
+         <thead>
+            <tr>
+               <th>FileName</th>
+               <th>Description</th>
+            </tr>
+         </thead>
+
+         <tbody>
+            <tr>
+               <td>login2</td>
+               <td>The page that enables a user to sign in if they are registered with the site.</td>
+            </tr>
+            <tr>
+               <td>signup</td>
+               <td> The page that enables the user to register on the site.</td>
+            </tr>
+            <tr>
+               <td>checklist</td>
+               <td>The page that enables the user to recommendation Initials.</td>
+            </tr>
+            <tr>
+               <td>welcome</td>
+               <td>The home page of website.</td>
+            </tr>
+            <tr>
+               <td>RecpDetails</td>
+               <td>The page that shows the user their recipe information.</td>
+            </tr>
+            <tr>
+               <td>categoryRecp</td>
+               <td>The page that shows the user 20 recipes from each category of the database.</td>
+            </tr>
+            <tr>
+               <td>header</td>
+               <td>Header for all pages of the site.</td>
+            </tr>
+            <tr>
+               <td>footer</td>
+               <td>Footer to all pages of the site.</td>
+            </tr>
+            <tr>
+               <td>config</td>
+               <td>Linking with database.</td>
+            </tr>
+            <tr>
+               <td>compare</td>
+               <td>Comparing recipes in terms of the most liked by the user.</td>
+            </tr>
+            <tr>
+               <td>session</td>
+               <td>User likes are saved in their account.</td>
+            </tr>
+            <tr>
+               <td>logout</td>
+               <td>Enables the user to sign out and leave the account.</td>
+            </tr>
+            <tr>
+               <td>food-recipes</td>
+               <td>The database used in the website.</td>
+            </tr>
+            <tr>
+               <td>SiteDescription</a></td>
+               <td>A page that shows the purpose of the project and explain each file in the folder
+               and its purpose in the design of the site.</td>
+            </tr>
+            <tr>
+               <td>page</td>
+               <td>sugar free profile and link it to a recipe page.</td>
+            </tr>
+            <tr>
+               <td>page1</td>
+               <td>Recipes for foods.</td>
+            </tr>
+            <tr>
+               <td>weight</td>
+               <td>Calculate your ideal weight</td>
+            </tr>
+         </tbody>
+      </table>
+         
+         <h2>CSS:</h2>
+         <p>In general, single external style sheet was used to ensure the exact or similar style of all pages in general.
+         Some of file the embedded was used in some pages to further customize the formatting.</p>
+         
+         <h2>JavaScript:</h2>
+         <p>On the <a href = "welcome.php">welcome</a> page, the site welcomes the user by returning the name stored in the database</p>
+         <p>On the <a href = "SiteDescription.html">site description</a> page as a type of user interaction, the user name is required before the page is displayed.
+         The page welcomes the username followed by the page information.</p>
+         
+         
+         <h1>Member Contributions</h1>
+         <p>Table 2 shows the member contributions of the project.</p>
+         <table border = "1">
+            
+         <thead>
+            <tr>
+               <th>Name</th>
+               <th>ID</th>
+               <th>Email</th>
+               <th>The contribution</th>
+            </tr>
+         </thead>
+
+         <tbody>
+            <tr>
+               <td>Salma Ibrahim Aldriwish</td>
+               <td>433026065</td>
+               <td>SIDRAWISH@sm.imamu.edu.sa</td>
+               <td>
+                  <ul>
+                     <li>Propose the idea and design and format the pages of the website.</li>
+                  </ul>
+               </td>
+            </tr>
+            <tr>
+               <td>Atikah Ibrahim Almazyad</td>
+               <td>437041202</td>
+               <td>AAALMZYIAD@sm.imamu.edu.sa</td>
+               <td>
+                  <ul>
+                     <li>Optimize the website by returning the recipe from the database as a table.</li>
+                     <li>Build a site description page.</li>
+                  </ul>
+               </td>
+            </tr>
+            <tr>
+               <td>Afrah Awadh Almutairy</td>
+               <td>432040310</td>
+               <td>afaalmutairy@sm.imamu.edu.sa</td>
+               <td>
+                  <ul>
+                     <li>Create a sugar free profile and link it to a recipe page.</li>
+                     <li>Create a page to calculate ideal weight.</li>
+                  </ul>
+               </td>
+            </tr>
+         </tbody> 
+         </table>
+         
+         <h1>Contact Us</h1>
+
+         <p><label>Requests:<br>
+            <textarea name = "requests"
+               rows = "4" cols = "36">Enter requests here.</textarea>
+         </label></p>
+         
+         <p><label>E-mail Address: 
+            <input name = "email" type = "text"  size = "25">
+         </label></p>
+         
+         <p>
+            <input type = "submit" value = "Submit">
+            <input type = "reset" value = "Clear">
+         </p>   
+
+
+   
+   <footer>
+      <hr>
+      <div align="center">
+         ©Sugr Free 2019
+      </div>
+   </footer>
+   </body>
+
+</html>

@@ -1,0 +1,233 @@
+
+
+footer  {text-align: center;
+       padding: 10em;
+	   }
+
+    .copyright {
+        position: absolute;
+        width: 100%;
+        
+        line-height: 40px;
+        font-size: 0.7em;
+        text-align: center;
+        bottom:0;
+    }
+
+
+
+
+
+li {
+    float:left;
+    baorder-right:1px solid brown;
+}
+
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body{background-image:url("img/w1.jpg") ;
+background-repeat:repeat;
+ background-position: center ;
+background-attachment:fixed;
+ background-size: 100% 100%;
+text-align:center;}
+
+
+
+/* li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+} */
+
+
+p{
+    font-size:30pt;
+color:black;
+border:2px black;
+font-family:Bradley Hand ITC
+}
+
+
+.signupbutten{
+    font-weight: 600;
+    width: 50%;
+    color: #282726;
+    background-color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+}
+
+
+.login-form-1{
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+ .login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+ 
+.container{
+}
+
+.wrapper{
+} 
+
+
+
+	
+.navbar{
+	border-radius:0;
+	margin-bottom:0;
+	border:none;
+        font-family: 'Open Sans Condensed', sans-serif, sans-serif;
+
+	}
+    
+.navbar > li >a{
+    
+    }
+	
+
+	
+.navbar-header{
+	}
+	
+.navbar-brand{
+width:160px;
+height:160px;
+float:center;
+padding:0;
+margin-top:-130px;
+overflow:hidden;
+border:3px solid #eee;
+margin-left:15px;
+background:#333;
+text-align:center;
+line-height:160px;
+color:#eae7e7 !important;
+font-size:2em;
+    -webkit-transition:  all 0.3s ease-in-out;
+  	-moz-transition: all 0.3s ease-in-out;
+  	-o-transition:  all 0.3s ease-in-out;
+  	transition: all 0.3s ease-in-out ;
+
+	}
+    
+    
+    
+	
+.main-menu{
+	position:absolute;
+	left:190px;
+	}
+	
+.slider, .carousel{
+	max-height:360px;
+	overflow:hidden;
+	}
+	
+.carousel-control .fa-angle-left,
+.carousel-control .fa-angle-right {
+position: absolute;
+top: 50%;
+font-size:2em;
+z-index: 5;
+display: inline-block;
+}
+
+.carousel-control{
+	background-color:transparent;
+	background-image:none !important;
+	}
+	
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color:transparent !important;
+  background-image:none !important;
+  outline: 0;
+}
+
+	
+.site-name{
+	color:#fff;
+	font-size:2.4em;
+	float:left;
+	margin-top:-65px !important;
+	margin-left:15px;
+        font-family: 'Open Sans Condensed', sans-serif, sans-serif;
+
+	}	
+.site-description{
+	color:#fff;
+	font-size:1.3em;
+	float:left;
+	margin-top:-30px !important;
+	margin-left:15px;
+	}
+#header{
+	border:1px solid #ddd;
+	margin-bottom:20px;
+	}
+	
+@media (max-width: 490px) {
+	.site-name{
+	color:#fff;
+	font-size:1.5em;
+	float:left;
+	line-height:20px;
+	margin-top:-100px !important;
+	margin-left:125px;
+	}	
+.site-description{
+	color:#fff;
+	font-size:1.3em;
+	float:left;
+	margin-top:-80px !important;
+	margin-left:125px;
+	}
+    }
+    
+
+
+    	
+@media (max-width: 768px) {
+    .navbar-brand{
+        max-width: 100px;
+        max-height:100px;
+        float:left;
+        margin-top:-65px;
+        margin-left:15px;
+        -webkit-transition:  all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          -o-transition:  all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out ;
+      }
+    .navbar{
+        border-radius:0;
+        margin-bottom:0;
+        border:none;
+        }  
+    .main-menu{
+        left:0;
+        position:relative;
+        }
+    }
+
+label {
+    font-weight:bold;
+    width:100px;
+    font-size:14px;
+ }
